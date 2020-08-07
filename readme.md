@@ -66,7 +66,7 @@ origin  https://github.com/StefanTang/git-test.git (push)
 把远程仓库克隆到本地
 
 ---
-# 分支
+# 分支相关操作
 ## git branch
 1. 查看分支
 2. 当前选中分支前面有*
@@ -80,6 +80,13 @@ origin  https://github.com/StefanTang/git-test.git (push)
 切换分支
 
 ---
+## git merge 分支名
+合并分支
+
+---
+## git branch -d 分支名
+删除分支
+
 
 
 
