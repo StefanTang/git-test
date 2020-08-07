@@ -34,8 +34,31 @@
 查看变更信息
 
 ---
+## git reset --head HEAD^
+回退到上个版本（^^退回两个版本）
+## git reset --hard 191e0c7
+回退到指定版本
+
+---
+## git remote add origin 仓库地址
+origin(别称，别的也可以)<br>
+把本地仓库与远程仓库关联
 
 
+
+## git remote -v
+查看本地仓库关联的远程仓库地址 <br>
+origin  https://github.com/StefanTang/git-test.git (fetch) <br>
+origin  https://github.com/StefanTang/git-test.git (push)
+
+---
+## git push -u origin master
+1. git push 本地仓库提交到远程仓库
+2. -u origin master 设置默认远成仓库和分支
+3. 执行完此命令后，以后可以直接写`git push`提交到远程仓库的master分支
+
+
+---
 ***
 - require
 ```js
