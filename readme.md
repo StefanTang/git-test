@@ -57,6 +57,10 @@ origin  https://github.com/StefanTang/git-test.git (push)
 2. -u origin master 设置默认远成仓库和分支
 3. 执行完此命令后，以后可以直接写`git push`提交到远程仓库的master分支
 
+---
+## git pull
+1. 把远程代码更新到本地时，一定要养成先提交再更新的习惯！！
+2. 把远程代码拉取到本地（更新代码）
 
 ---
 ***
