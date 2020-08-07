@@ -63,25 +63,18 @@ origin  https://github.com/StefanTang/git-test.git (push)
 2. 把远程代码拉取到本地（更新代码）
 
 ---
-***
-- require
-```js
-require.config({
-    baseUrl : './js',
-    paths : {
-        "jquery" : ["http://libs.baidu.com/jquery/2.0.3/jquery","./lib/jquery-2.1.4"],
-        "m1" : "./module1",
-        "m2" : "./module2"
-    }
-})
-```
----
-
->我是引用效果 <br> 确实
+# 分支
+## git branch
+1. 查看分支
+2. 当前选中分支前面有*
 
 ---
+## git branch 分支名
+创建分支
 
-**我是加粗**
+---
+## git checkout 分支名
+切换分支
 
 
 
