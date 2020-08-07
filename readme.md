@@ -87,8 +87,20 @@ origin  https://github.com/StefanTang/git-test.git (push)
 ## git branch -d 分支名
 删除分支
 
+---
+# 配置密钥
+1. 首先检查电脑是否曾经生成过私钥 <br>
+cd ~/.ssh<br>
+若打开该文件夹为空，则表示没有生成过秘钥，进入第二步。（~表示根目录）
+2. 生成私钥
+ssh-keygen -t rsa -C "your email"
+命令要求输入密码，不用输，三个回车即可。
+执行成功后，会在主目录.ssh路径下生成两个文件：id_rsa私钥文件；id_rsa.pub公钥文件； 
+3. 配置公钥
+登陆github帐户点击头像，然后 Settings -> 左栏点击 SSH and GPG keys -> 点击 New SSH key<br>
+在远程仓库github上添加title和key，和本地的一致。title可以自己取一个容易区分的名字，key为id_rsa.pub中的内容（全部复制，可用cat id_rsa.pub命令打开）
 
-
+使用git协议，然后配置好SSH，这样可以省去每次都输密码。
 
 
 
