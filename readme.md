@@ -62,6 +62,9 @@ origin  https://github.com/StefanTang/git-test.git (push)
 1. 把远程代码更新到本地时，一定要养成先提交再更新的习惯！！
 2. 把远程代码拉取到本地（更新代码）
 
+## git clone
+把远程仓库克隆到本地
+
 ---
 # 分支
 ## git branch
